@@ -10,12 +10,17 @@ To use this code, you will need:
  * vSphere credentials with permission to perform the desired tasks
 
 ## Using the Provider
-Clone this repository to your local machine.
-Edit the variables.tf file to set the desired values for your environment.
-Run `terraform init` to download the vSphere provider.
-Run `terraform plan` to see what changes Terraform will make.
-If the plan looks good, run `terraform apply` to apply the changes.
-When you're done, run `terraform destroy` to remove the resources created by Terraform.
+  Clone this repository to your local machine.
+  
+  Edit the variables.tf file to set the desired values for your environment.
+  
+  Run `terraform init` to download the vSphere provider.
+  
+  Run `terraform plan` to see what changes Terraform will make.
+  
+  If the plan looks good, run `terraform apply` to apply the changes.
+  
+  When you're done, run `terraform destroy` to remove the resources created by Terraform.
   
 ## Configuration
 You can customize the configuration of this code by editing the variables.tf file. The available variables are:
