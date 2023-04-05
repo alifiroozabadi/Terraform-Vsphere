@@ -1,41 +1,41 @@
-Terraform vSphere Virtual Machine Module
-This module creates a virtual machine in a vSphere environment. You can use this module to create one or more virtual machines with the same configuration.
+# Terraform vSphere Virtual Machine Module
+### This module creates a virtual machine in a vSphere environment. You can use this module to create one or more virtual machines with the same configuration.
 
-Usage
+## Usage
 Here's an example of how you can use this module:
 
-hcl
-Copy code
-module "vm1" {
-  source            = "git::"https://github.com/Aria-Git/Terraform-Vsphere.git)"
-  vsphere_user      = "user@vsphere.local"
-  vsphere_password  = "password"
-  vsphere_server    = "192.168.1.100"
-  vsphere_datacenter = "datacenter"
-  vsphere_datastore = "datastore1"
-  vsphere_cluster   = "cluster1"
-  vsphere_network   = "network1"
-  vsphere_name      = "vm1"
-  vsphere_num_cpus  = 2
-  vsphere_memory    = 4096
-  vsphere_size      = 20
-}
 
-module "vm2" {
-  source            = "git::"https://github.com/Aria-Git/Terraform-Vsphere.git)"
-  vsphere_user      = "user@vsphere.local"
-  vsphere_password  = "password"
-  vsphere_server    = "192.168.1.100"
-  vsphere_datacenter = "datacenter"
-  vsphere_datastore = "datastore1"
-  vsphere_cluster   = "cluster1"
-  vsphere_network   = "network1"
-  vsphere_name      = "vm2"
-  vsphere_num_cpus  = 4
-  vsphere_memory    = 8192
-  vsphere_size      = 40
-}
-Inputs
+    module "vm1" {
+      source            = "git::"https://github.com/Aria-Git/Terraform-Vsphere.git)"
+      vsphere_user      = "user@vsphere.local"
+      vsphere_password  = "password"
+      vsphere_server    = "192.168.1.100"
+      vsphere_datacenter = "datacenter"
+      vsphere_datastore = "datastore1"
+      vsphere_cluster   = "cluster1"
+      vsphere_network   = "network1"
+      vsphere_name      = "vm1"
+      vsphere_num_cpus  = 2
+      vsphere_memory    = 4096
+      vsphere_size      = 20
+    }
+
+    module "vm2" {
+      source            = "git::"https://github.com/Aria-Git/Terraform-Vsphere.git)"
+      vsphere_user      = "user@vsphere.local"
+      vsphere_password  = "password"
+      vsphere_server    = "192.168.1.100"
+      vsphere_datacenter = "datacenter"
+      vsphere_datastore = "datastore1"
+      vsphere_cluster   = "cluster1"
+      vsphere_network   = "network1"
+      vsphere_name      = "vm2"
+      vsphere_num_cpus  = 4
+      vsphere_memory    = 8192
+      vsphere_size      = 40
+    }
+
+## Inputs
 This module accepts the following inputs:
 
 vsphere_user - (Required) The username for vSphere authentication.
