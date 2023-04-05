@@ -1,0 +1,11 @@
+variable "vsphere_user" {}
+variable "vsphere_password" {}
+variable "vsphere_server" {}
+variable "vsphere_datacenter" {}
+variable "vsphere_datastore" {}
+variable "vsphere_cluster" {}
+variable "vsphere_network" {}
+variable "vsphere_num_cpus" {}
+variable "vsphere_memory" {}
+variable "vsphere_size" {}
+variable "vsphere_name" {}
