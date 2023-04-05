@@ -6,5 +6,4 @@ module "Create-VM1" {
 module "Create-VM2" {
   source = "./module/Create-VM"
   vsphere_name  = "Vvm2"
-
 }
