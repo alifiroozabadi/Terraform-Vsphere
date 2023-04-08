@@ -16,19 +16,19 @@ variable "vm_disk" {
 
 variable "vsphere_cluster" {
   description = "Name of the vSphere resource pool."
-  default     = "vSAN-Cluster"
+  default     = "Your Cluster"
 }
 
 variable "vsphere_datacenter" {
   description = "Name of the vSphere datacenter."
-  default     = "AbriComp-SDDC"
+  default     = "Youe Datacenter"
 }
 
 variable "vsphere_network" {
   description = "Name of the vSphere network."
-  default     = "Mgmt-VM-Private"
+  default     = "Your Network"
 }
 variable "vsphere_datastore" {
   description = "Name of the vSphere datastore."
-  default     = "vSAN-DS"
+  default     = "Your Datastore"
 }
