@@ -6,7 +6,7 @@ provider "vsphere" {
 }
 
 module "Create-VM" {
-  source = "./module/Create-VM"
+  source = "github.com/Aria-Git/Terraform-Vsphere/edit/main/Create-VM"
   count  = "${var.vm_count}"
 
   vm_name = "${format("%s-%02d", var.vm_prefix, count.index + 1)}"
