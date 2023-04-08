@@ -1,16 +1,16 @@
 variable "vsphere_user" {
   description = "Username for vSphere connection."
-  default = "administrator@abricomp.local"
+  default = "Your Username"
 }
 
 variable "vsphere_password" {
   description = "Password for vSphere connection."
-  default = "P@ssw0rd"
+  default = "Your Password"
 }
 
 variable "vsphere_server" {
   description = "vSphere server IP address or DNS name."
-  default = "vcenter.abricomp.ir"
+  default = "Your vCenter URL"
 }
 
 variable "vm_count" {
