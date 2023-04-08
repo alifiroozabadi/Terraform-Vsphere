@@ -5,7 +5,7 @@
  * VMware vSphere environment
  * Terraform (version 0.12.0 or higher)
  * VMware vSphere provider for Terraform
-## Usaing The Provider
+## Using The Provider
  ### Variables
  
  The following variables can be configured for the virtual machines:
