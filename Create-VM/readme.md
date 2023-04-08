@@ -30,7 +30,7 @@ Here is an example usage of the module:
   vsphere_password   = "Your vSphere Password"
   vsphere_server     = "Your vSphere URL or IP"
   vm_count           = "Number of VMs"
-  vm_prefix          = "ِThe Name You want to Give to VM"
+  vm_prefix          = "The Name You want to Give to VM"
   vm_cpu             = "Number of CPUs"
   vm_mem             = "Memory Size (MB)"
   vm_disk            = "Disk Size (GB)"
