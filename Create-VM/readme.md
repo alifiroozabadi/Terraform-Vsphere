@@ -4,7 +4,7 @@
 ## Prerequisites
 #### VMware vSphere environment
 #### Terraform >= 0.12.x
-####VMware vSphere provider for Terraform
+#### VMware vSphere provider for Terraform
 ###### Usage
 ## Variables
 ### The following variables can be configured for the virtual machines:
