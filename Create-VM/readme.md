@@ -5,19 +5,20 @@
  * VMware vSphere environment
  * Terraform (version 0.12.0 or higher)
  * VMware vSphere provider for Terraform
+ 
 ## Using The Provider
  ### Variables
  
  The following variables can be configured for the virtual machines:
 
-* ##### vsphere_user: Username for vSphere connection.
-* ##### vsphere_password: Password for vSphere connection.
-* ##### vsphere_server: vSphere server IP address or DNS name.
-* ##### vm_count: Number of virtual machines to create. Default is 2.
-* ##### vm_prefix: Prefix for the virtual machine names. Default is vm.
-* ##### vm_cpu: Number of CPUs for the virtual machines. Default is 2.
-* ##### vm_mem: Amount of memory (in MB) for the virtual machines. Default is 4096.
-* ##### vm_disk: Size (in GB) of the virtual machine disk. Default is 20.
+ *  **vsphere_user:‍** *Username for vSphere connection.*
+ *  **vsphere_password:** *Password for vSphere connection.*
+ *  **vsphere_server:** *vSphere server IP address or DNS name.*
+ *  **vm_count:** *Number of virtual machines to create. Default is 2.*
+ *  **vm_prefix:** *Prefix for the virtual machine names. Default is vm.*
+ *  **vm_cpu:** *Number of CPUs for the virtual machines. Default is 2.*
+ *  **vm_mem:** *Amount of memory (in MB) for the virtual machines. Default is 4096.*
+ *  **vm_disk:** *Size (in GB) of the virtual machine disk. Default is 20.*
 
 ### Example
 Here is an example usage of the module:
